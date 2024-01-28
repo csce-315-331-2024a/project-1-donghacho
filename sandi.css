@@ -1,0 +1,105 @@
+body {
+  background-color: dodgerblue;
+}
+
+.home {
+  font-family: "Verdana", Tahoma, Sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 150%;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+ }
+
+ h1 {
+  font-family: "Verdana", Tahoma, Sans-serif;
+  margin-top: 86px;
+  margin-left: 160px;
+  font-size: 400%
+ }
+
+ h2 {
+  font-family: "Verdana", Tahoma, Sans-serif;
+  margin-top: 80px;
+  margin-left: 160px;
+  font-size: 400%
+ }
+
+ .landt {
+  margin-left: 160px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  font-family: "Verdana", Tahoma, Sans-serif;
+  
+ }
+
+ .landt img {
+  width: 160px;
+  height: 160px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+ .interests {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-left: 160px;
+  font-family: "Verdana", Tahoma, Sans-serif;
+ }
+
+ h3 {
+  text-align: center;
+ }
+
+ .interests img {
+  width: 267px;
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+
+
+.laptop-img {
+  text-align: left;
+  margin-left: 160px;
+  margin-top: 100px;
+}
+
+.laptop-img img {
+  width: 700px;
+  height: 1100px;
+}
+
+.buttons {
+  margin-top: 253px;
+  margin-left: 160px;
+}
+ 
+.buttons button {
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  font-family: "Verdana", Tahoma, Sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+
+
