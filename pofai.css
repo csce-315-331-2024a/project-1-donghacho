@@ -1,0 +1,119 @@
+body {
+  background-color: dodgerblue; /* Set the background color for the entire page */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Verdana", Tahoma, Sans-serif; /* Set font family for all text */
+}
+
+.topnav {
+  font-family: "Verdana", Tahoma, Sans-serif;
+  font-weight: 600;
+  font-size: 125%;
+  text-align: right;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+.topic {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  width: 100%;
+  padding: 10px; /* Reduced padding for less separation */
+  box-sizing: border-box;
+}
+
+.image-container {
+  flex-basis: 45%; /* Adjusted for a closer alignment */
+  margin: 0;
+  padding-right: 5px; /* Add padding for a consistent separation */
+  height: 300px; /* Set a specific height */
+}
+
+.image-container img {
+  width: 100%; /* Full width of its container */
+  height: 100%; /* Take full height of its container */
+  object-fit: cover; /* Cover the space without stretching the image */
+  display: block;
+  border-radius: 5px;
+}
+
+.content-container {
+  flex-basis: 55%; /* Adjusted for a closer alignment */
+  padding: 0 20px; /* Adjust padding for consistent spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: white; /* Set the background color for buttons to white */
+  color: black; /* Set the text color for buttons to black */
+  margin-right: 10px;
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add slight roundness to buttons */
+  font-weight: bold; /* Make button text bolder */
+}
+
+.topic-one {
+  justify-content: flex-start;
+  margin-top: 50px; /* Adjust top margin for Topic 1 */
+}
+
+.topic-two {
+  justify-content: flex-start;
+  flex-direction: row; /* Ensure content is on the left and image on the right for Topic 2 */
+  margin-top: 50px; /* Adjust top margin for Topic 2 */
+}
+
+/* Increase the font size and font weight for the "Power of AI" title */
+.power-of-ai-header {
+  font-size: 180%; /* Increase font size */
+  font-weight: bold; /* Make it bold */
+  margin: 20px 0 0 20px; /* Adjust margin to move it right and down */
+}
+
+/* Add this CSS for the new HTML content block */
+.html-content {
+  background-color: white;
+  padding: 20px;
+  margin-top: 100px; /* Adjust the margin to move it further down */
+  width: 100%; /* Make it take up the full width */
+  box-sizing: border-box;
+}
+
+.html-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.html-content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.html-content ul {
+  list-style: disc;
+  margin-left: 20px;
+  font-size: 16px;
+}
