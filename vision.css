@@ -1,0 +1,52 @@
+body {
+  background-color: dodgerblue;
+}
+
+.topnav {
+  font-family: "Verdana", Tahoma, Sans-serif;
+  font-weight: 600;
+  font-size: 125%;
+  text-align: right;
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}
+
+.ai-img {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.ai-img img {
+  width: 80%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: "Verdana", Tahoma, Sans-serif;
+  font-weight: 600;
+  color: black;
+  font-size: 150%;
+  float: left;
+  margin-left: 20%;
+}
+
+.myvision {
+  font-family: "Tahoma", Verdana, Sans-serif;
+  font-size: 120%;
+  color: black;
+  width: 55%;
+  margin-top: 104px;
+  margin-left: 20%;
+}
+
+
+
+
+
+
